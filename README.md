@@ -4,7 +4,8 @@ this repository is created for my daily practice
 # I am Abubakar Muhammad Danhaya
 
 **Brief History of programming experience**
-_i started my programming journey with Arewa DS academy_
+
+_I started my programming journey with Arewa DS academy on 6th October, 2024_
 
 ## Students with their registration number
 |Name   | REG
