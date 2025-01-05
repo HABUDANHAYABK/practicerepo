@@ -55,3 +55,31 @@ def build_person(first_name, last_name, age=None):
 my_information = build_person('abubakar', 'danhaya')
 print(my_information)
 
+def my_info(first_name, last_name, city, age=None):
+    """my information"""
+    info = {'first': first_name, 'last': last_name, 'state': city}
+    if age:
+        info[age] = age
+    return my_info
+bio_data = my_info('abubakar', 'danhaya', 'jigawa')
+print(bio_data)
+
+
+# Function with while loop
+def formatted_name(first_name, last_name):
+    """Return formatted name neatly"""
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+while True:
+    print("\nplease tell me your name")
+    print("Enter 'q' to cancel at any time")
+    f_name = input("Enter your first name")
+    if f_name == 'q':
+        break
+    l_name = input("Enter your last name")
+    if l_name == 'q':
+        break
+my_name = formatted_name(f_name, l_name)
+print(f"\nHello, {my_name}!")
+
+    
